@@ -1,0 +1,3 @@
+ALTER TABLE `prods_test`.`products` ADD FULLTEXT `title-fulltext` (`title`);
+
+ALTER TABLE `prods_test`.`user_order` ADD UNIQUE `product_id_user_unique` (`product_id`, `user_id`);
